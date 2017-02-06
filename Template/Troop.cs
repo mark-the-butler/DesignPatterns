@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace DesignPatterns.Template
 {
     public class Troop
     {
-        private IEnumerable<Character> _troops;
+        private readonly IEnumerable<Character> _troops;
 
         public Troop(IEnumerable<Character> troops)
         {
