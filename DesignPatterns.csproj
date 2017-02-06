@@ -50,13 +50,16 @@
     <Compile Include="Strategy\IFightingStrategy.cs" />
     <Compile Include="Strategy\MeleeStrategy.cs" />
     <Compile Include="Strategy\RangeAttack.cs" />
+    <Compile Include="Template\Archer.cs" />
+    <Compile Include="Template\Barbarian.cs" />
+    <Compile Include="Template\Character.cs" />
+    <Compile Include="Template\Troop.cs" />
+    <Compile Include="Template\TroopTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Template\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
