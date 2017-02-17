@@ -50,6 +50,13 @@
     <Compile Include="Adapter\IFighter.cs" />
     <Compile Include="Adapter\Troops.cs" />
     <Compile Include="Adapter\TroopsTests.cs" />
+    <Compile Include="Command\AttackCommand.cs" />
+    <Compile Include="Command\Barbarian.cs" />
+    <Compile Include="Command\Game.cs" />
+    <Compile Include="Command\GameTests.cs" />
+    <Compile Include="Command\ICommand.cs" />
+    <Compile Include="Command\IFighter.cs" />
+    <Compile Include="Command\MoveCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strategy\Barbarian.cs" />
     <Compile Include="Strategy\BarbarianTests.cs" />
