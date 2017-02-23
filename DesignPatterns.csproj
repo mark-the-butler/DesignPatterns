@@ -57,6 +57,12 @@
     <Compile Include="Command\ICommand.cs" />
     <Compile Include="Command\IFighter.cs" />
     <Compile Include="Command\MoveCommand.cs" />
+    <Compile Include="Composite\Attack.cs" />
+    <Compile Include="Composite\Barbarian.cs" />
+    <Compile Include="Composite\BarbarianTests.cs" />
+    <Compile Include="Composite\ICommand.cs" />
+    <Compile Include="Composite\Move.cs" />
+    <Compile Include="Composite\RageCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strategy\Barbarian.cs" />
     <Compile Include="Strategy\BarbarianTests.cs" />
