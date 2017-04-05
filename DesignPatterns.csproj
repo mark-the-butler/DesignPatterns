@@ -79,6 +79,14 @@
     <Compile Include="Composite\ICommand.cs" />
     <Compile Include="Composite\Move.cs" />
     <Compile Include="Composite\RageCommand.cs" />
+    <Compile Include="Factory\DadaBase.cs" />
+    <Compile Include="Factory\DarkSpellFactory.cs" />
+    <Compile Include="Factory\GameTests.cs" />
+    <Compile Include="Factory\Heal.cs" />
+    <Compile Include="Factory\ISpell.cs" />
+    <Compile Include="Factory\ISpellFactory.cs" />
+    <Compile Include="Factory\Poison.cs" />
+    <Compile Include="Factory\SpellFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Singleton\Game.cs" />
     <Compile Include="Singleton\GameTests.cs" />
